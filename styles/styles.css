@@ -95,11 +95,13 @@
     padding-top: 48px ;
 }
 /* welcome to 2024 section start here  */
+
 .third-section-container{
     width: 1320px;
     height: 600px;
     border-radius: 14px;
-    background-image:  url(/images/Vectorrr.png);
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.812),transparent),url(../images/Vectorrr.png);
+    /* background-image:  url(/images/Vectorrr.png); */
     margin: 120px auto; 
     background-position: center;
     background-size: cover;
@@ -145,6 +147,8 @@
     width: 1320px;
     height: 482px;
     margin: 120px auto;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.1));
+   
 }
 .section-box{
     flex-direction: column;
@@ -166,5 +170,62 @@
     border: none;
     margin-top: 48px;
 }
-
+/* offer section start here */
+.offer-container{
+    width: 1320px;
+    height: 463px;
+    margin: 122px auto;
+    /* border: 2px solid red ; */
+    display: flex;
+    gap: 70px;
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255);;
+    
+}
+.left-container{
+    width: 393px;
+    height: 255px; 
+    padding: 100px 70px 100px 0;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+.coming-section{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+.section-content{
+    font-size: 20px;
+    font-weight: 200px;
+    padding-top: 22px;
+}
+.new-section{
+    font-size: 24;
+    font-weight: 400px;
+}
+.middle-picture{
+   width: 463px;
+   height: 463px;
+   box-sizing:border-box;
+   border: 15px solid rgb(255, 0, 0);
+   
+}
+.right-container{
+  width: 276px;
+  height: 170px;
+  padding: 100px 0px 150px 90px;  
+}
+.year-section{
+    padding-bottom: 16px;
+    font-size:48px ;
+    font-weight: bold;
+}
+.section-part{
+    font-size: smaller;
+    font-weight: 100px; 
+}
+.group-section-img{
+    padding-top: 20px;
+}
     
