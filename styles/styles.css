@@ -20,6 +20,12 @@
   .secondary-bg{
     color: #FF0000;
   }
+  .font-secondary{
+    color: white;
+  }
+  .font-diamond{
+    color: #070211;
+  }
   /* banner style */
   .banner-container{
     width: 1320px;
@@ -28,7 +34,7 @@
     background-image: url(../images/Banner\ Image.png);
     margin: 50px auto;
     background-size: cover;
-    height: 600px;
+    /* height: 600px; */
     border: none;
     border-radius: 16px;
     background-blend-mode: overlay;
@@ -88,4 +94,77 @@
 .img-section{
     padding-top: 48px ;
 }
+/* welcome to 2024 section start here  */
+.third-section-container{
+    width: 1320px;
+    height: 600px;
+    border-radius: 14px;
+    background-image:  url(/images/Vectorrr.png);
+    margin: 120px auto; 
+    background-position: center;
+    background-size: cover;
+    display: flex;      
+}
+.section-blog{
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-title{
+    color: white;
+    font-size: 64px;
+    padding-bottom: 24px;
+}
+.section-description{
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    padding-left: 126px;
+    padding-bottom: 48px;
+}
+.section-subtitle{
+    padding-right: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.section-picture{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* place,date,time start here */
+.fourth-section-container{
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+}
+.section-box{
+    flex-direction: column;
+    margin-top: 100px;
+    font-size: 32px;
+    font-weight: 400px;
+    
+}
+.btn-primary{
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #FF0000;
+    border-radius: 5px;
+    border: none;
+    margin-top: 48px;
+}
+
     
