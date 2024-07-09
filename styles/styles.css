@@ -184,11 +184,11 @@
 }
 .left-container{
     width: 393px;
-    height: 255px; 
+    height: 128px; 
     padding: 100px 70px 100px 0;
     display: flex; 
     flex-direction: column;
-    justify-content: flex-start; 
+    text-align: left;
 }
 .coming-section{
     font-size: 48px;
@@ -208,13 +208,16 @@
    width: 463px;
    height: 463px;
    box-sizing:border-box;
-   border: 15px solid rgb(255, 0, 0);
-   
+   border: 15px solid red;
+   border-radius: 50%;
+   display: flex;
 }
+
 .right-container{
-  width: 276px;
-  height: 170px;
   padding: 100px 0px 150px 90px;  
+  width: 276px;
+  height: 96px;
+  text-align: left;
 }
 .year-section{
     padding-bottom: 16px;
@@ -228,4 +231,160 @@
 .group-section-img{
     padding-top: 20px;
 }
-    
+
+/* functional section starts here */
+.funtional-section{
+    width: 1320px;
+    height: 986.07px;
+    margin: 120px auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.function-head-part{
+    width: 1068px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Merriweather;
+}
+.holiday-title{
+    color: rgb(7, 2, 17);
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.holiday-content{
+    padding-bottom: 28px;
+}
+.holiday-description{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+    padding: 22px 126px 64px 126px;
+}
+.solid-color{
+    position: absolute;
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+    top: 77%;
+}
+.gift-box-container{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    right: 30%;
+    top: 5%;
+}
+.girl-container{
+    width: 305.69px;
+    height: 305.69px;
+    position: relative;
+    left: 30%;
+    bottom: 45%;
+}
+
+/* awesome portfolio starts here */
+
+.awesome-portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    margin: 120px auto;
+}
+.gift-title{
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio-heading{
+    padding-bottom: 22px;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Merriweather;
+}
+.portfolio-description{
+    width: 896px;
+    height: 64px;
+    padding-bottom: 48px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* subscribe newsletter */
+.subscribe-container{
+    width: 1320px;
+    height: 616px;
+    margin: 120px auto;
+    border: 2px solid red;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.newslwtter-contet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mail-box{
+    padding-top: 80px;
+}
+.subscribe-title{
+    padding-top: 40px;
+}
+.news-content{
+    padding-top: 22px;
+    width: 896px;
+    height: 64px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.rectangle{
+    width: 648px;
+    height: 72px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    margin-top: 48px;
+    position:relative;
+}
+.sub-title{
+    position: absolute;
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    left: 70%;
+}
+.sub-title, p{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 24px 56px;
+}
+.user-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 475px 25px 30px;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
