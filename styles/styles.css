@@ -144,6 +144,10 @@
 
 /* place,date,time start here */
 .fourth-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 1320px;
     height: 482px;
     margin: 120px auto;
@@ -151,11 +155,22 @@
    
 }
 .section-box{
+    display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
     font-size: 32px;
-    font-weight: 400px;
-    
+    font-weight: 400px; 
+}
+.destination-part{
+    width: 549px;
+    height: 168px;
+    margin: 100px 386px 104px 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .btn-primary{
     padding: 16px 32px;
@@ -377,6 +392,7 @@ align-items: center;
 justify-content: center;
 padding: 24px 56px;
 }
+
 .user-content{
     display: flex;
     flex-direction: column;
@@ -388,3 +404,64 @@ padding: 24px 56px;
     font-size: 18px;
     font-weight: 400;
 }
+/* footer section starts here */
+
+.footer-container{
+    width: 1320px;
+    height: 609px;
+    margin: 0px auto;
+    background: rgb(7, 2, 17);
+}
+.footer-first-section{
+    width: 90%;
+    margin: 0px auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.contract{
+    display: flex;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    width: 90%;
+    margin: 0px auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.contract-section{
+    padding-top: 120px;
+}
+.web-section{
+    padding-bottom: 50px;
+}
+.footer-description{
+    padding-top: 80px;
+}
+.hr-section{
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 150px;
+}
+.social-icons{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+.hr-section{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.footer-end-text{
+    width: 90%;
+    margin: 0px auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    
+}
+
